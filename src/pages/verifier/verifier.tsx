@@ -1,5 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
-import AppContext from 'context/app';
+import React, {useEffect, useState} from 'react';
 import {Button, FormControl} from 'react-bootstrap';
 import 'pages/verifier/verifier.scss'
 import ApiService from 'utils/apiService';
