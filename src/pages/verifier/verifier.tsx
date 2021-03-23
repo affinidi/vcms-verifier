@@ -26,7 +26,6 @@ const Verifier = () => {
     isLoadingStoredVCs: true
   })
   const [inputVC, setinputVC] = useState('')
-  const {appState} = useContext(AppContext);
 
   /**
    * Get stored VCs from user cloud wallet on component mount.
